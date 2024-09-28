@@ -6,6 +6,11 @@ choco install googlechrome -y
 choco install vscode -y
 choco install python -y
 choco install metatrader5 -y
+choco install git -y  # Install Git
+
+# Configure Git
+git config --global user.email "wildandzakyramadhani@mail.ugm.ac.id"
+git config --global user.name "wildandr"
 
 # Upgrade pip and install dependencies
 python -m pip install --upgrade pip
